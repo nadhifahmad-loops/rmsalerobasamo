@@ -1,0 +1,188 @@
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+    --font-sans:
+        'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --radius-lg: var(--radius);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-sm: calc(var(--radius) - 4px);
+
+    /* Brand — Salero Basamo Jati (Modern Padang Heritage) */
+    --color-brand: var(--brand);
+    --color-brand-hover: var(--brand-hover);
+    --color-gold: var(--gold);
+    --color-surface: var(--surface);
+    --color-soft-red: var(--soft-red);
+    --color-soft-yellow: var(--soft-yellow);
+
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+
+    --color-destructive: var(--destructive);
+    --color-destructive-foreground: var(--destructive-foreground);
+
+    --color-success: var(--success);
+    --color-warning: var(--warning);
+    --color-info: var(--info);
+
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+
+    --color-chart-1: var(--chart-1);
+    --color-chart-2: var(--chart-2);
+    --color-chart-3: var(--chart-3);
+    --color-chart-4: var(--chart-4);
+    --color-chart-5: var(--chart-5);
+
+    --color-sidebar: var(--sidebar-background);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentColor);
+    }
+}
+
+:root {
+    color-scheme: light;
+
+    /* Brand palette — jangan duplikasi hex di komponen. */
+    --brand: #d50112;
+    --brand-hover: #b9000f;
+    --gold: #fdce02;
+    --surface: #ffffff;
+    --soft-red: #fff0f1;
+    --soft-yellow: #fff8d9;
+
+    --background: #faf9f6;
+    --foreground: #211d1b;
+    --card: var(--surface);
+    --card-foreground: var(--foreground);
+    --popover: var(--surface);
+    --popover-foreground: var(--foreground);
+    --primary: var(--brand);
+    --primary-foreground: #ffffff;
+    --secondary: var(--soft-red);
+    --secondary-foreground: var(--foreground);
+    --muted: var(--background);
+    --muted-foreground: #746e68;
+    --accent: var(--soft-yellow);
+    --accent-foreground: var(--foreground);
+    --destructive: var(--brand-hover);
+    --destructive-foreground: #ffffff;
+    --success: #15803d;
+    --warning: #a16207;
+    --info: #1d4ed8;
+    --border: #e9e4dd;
+    --input: #e9e4dd;
+    --ring: var(--brand);
+    --chart-1: var(--brand);
+    --chart-2: var(--gold);
+    --chart-3: var(--foreground);
+    --chart-4: var(--muted-foreground);
+    --chart-5: var(--brand-hover);
+    --radius: 0.5rem;
+    --sidebar-background: var(--surface);
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--brand);
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: var(--soft-red);
+    --sidebar-accent-foreground: var(--foreground);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--brand);
+}
+
+.dark {
+    color-scheme: dark;
+
+    --background: #211d1b;
+    --foreground: #faf9f6;
+    --card: #2b2522;
+    --card-foreground: var(--foreground);
+    --popover: #2b2522;
+    --popover-foreground: var(--foreground);
+    --primary: var(--brand);
+    --primary-foreground: #ffffff;
+    --secondary: #3a2426;
+    --secondary-foreground: #fff0f1;
+    --muted: #2b2522;
+    --muted-foreground: #b9b0a8;
+    --accent: #3a321a;
+    --accent-foreground: #fff8d9;
+    --destructive: #ff6b6b;
+    --destructive-foreground: #211d1b;
+    --success: #4ade80;
+    --warning: #fde047;
+    --info: #93c5fd;
+    --border: #3d3631;
+    --input: #3d3631;
+    --ring: var(--gold);
+    --chart-1: #ff5a66;
+    --chart-2: #fde047;
+    --chart-3: #93c5fd;
+    --chart-4: #4ade80;
+    --chart-5: #b9b0a8;
+    --sidebar-background: #2b2522;
+    --sidebar-foreground: #faf9f6;
+    --sidebar-primary: var(--brand);
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #3a2426;
+    --sidebar-accent-foreground: #fff0f1;
+    --sidebar-border: #3d3631;
+    --sidebar-ring: var(--gold);
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}

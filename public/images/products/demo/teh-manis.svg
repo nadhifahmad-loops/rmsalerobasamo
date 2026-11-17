@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Teh Manis</title>
+  <desc id="desc">Dummy foto produk Teh Manis untuk katalog lokal Salero Basamo Jati.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect width="640" height="12" fill="#D50112" />
+  <rect x="24" y="28" width="244" height="36" rx="18" fill="#FFF0F1" />
+  <text x="42" y="52" fill="#D50112" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Minuman</text>
+  <rect x="540" y="28" width="76" height="36" rx="18" fill="#FDCE02" />
+  <text x="578" y="52" fill="#211D1B" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DEMO</text>
+  <circle cx="320" cy="232" r="134" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="8" />
+  <circle cx="320" cy="232" r="108" fill="none" stroke="#FAF9F6" stroke-width="4" />
+  <path d="M276 178h88l-12 112a18 18 0 0 1-18 16h-28a18 18 0 0 1-18-16Z" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="6" />
+<path d="M282 224h76l-6 66a14 14 0 0 1-14 12h-36a14 14 0 0 1-14-12Z" fill="#FDCE02" opacity="0.82" />
+<path d="M372 190l36-40" stroke="#211D1B" stroke-width="8" stroke-linecap="round" />
+<circle cx="304" cy="198" r="5" fill="#FFFFFF" />
+<circle cx="330" cy="188" r="4" fill="#FFFFFF" />
+  <rect x="150" y="388" width="340" height="2" fill="#E9E4DD" />
+  <text x="320" y="432" fill="#211D1B" font-family="system-ui, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Teh Manis</text>
+</svg>

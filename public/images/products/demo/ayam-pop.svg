@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ayam Pop</title>
+  <desc id="desc">Dummy foto produk Ayam Pop untuk katalog lokal Salero Basamo Jati.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect width="640" height="12" fill="#D50112" />
+  <rect x="24" y="28" width="244" height="36" rx="18" fill="#FFF0F1" />
+  <text x="42" y="52" fill="#D50112" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Lauk Padang</text>
+  <rect x="540" y="28" width="76" height="36" rx="18" fill="#FDCE02" />
+  <text x="578" y="52" fill="#211D1B" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DEMO</text>
+  <circle cx="320" cy="232" r="134" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="8" />
+  <circle cx="320" cy="232" r="108" fill="none" stroke="#FAF9F6" stroke-width="4" />
+  <path d="M268 276c-18-34 4-76 44-88 28-8 54 4 66 26 14 26 4 56-22 70-28 16-70 12-88-8Z" fill="#FDCE02" opacity="0.92" />
+<path d="M356 190c22-20 44-22 62-8-16 18-36 26-58 22Z" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="5" />
+<circle cx="304" cy="222" r="8" fill="#FFFFFF" opacity="0.8" />
+<circle cx="334" cy="248" r="6" fill="#FFFFFF" opacity="0.8" />
+  <rect x="150" y="388" width="340" height="2" fill="#E9E4DD" />
+  <text x="320" y="432" fill="#211D1B" font-family="system-ui, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Ayam Pop</text>
+</svg>

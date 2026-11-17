@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Belum ada foto produk</title>
+  <desc id="desc">Placeholder lokal untuk menu yang belum memiliki gambar.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect x="152" y="104" width="336" height="248" rx="16" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="6" />
+  <circle cx="320" cy="218" r="62" fill="#FFF0F1" stroke="#E9E4DD" stroke-width="6" />
+  <path d="M288 218h64M320 186v64" stroke="#D50112" stroke-width="10" stroke-linecap="round" />
+  <path d="M250 310h140" stroke="#E9E4DD" stroke-width="10" stroke-linecap="round" />
+  <text x="320" y="392" fill="#746E68" font-family="system-ui, sans-serif" font-size="28" text-anchor="middle">Belum ada foto</text>
+</svg>

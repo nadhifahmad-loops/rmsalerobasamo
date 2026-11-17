@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Sayur Nangka</title>
+  <desc id="desc">Dummy foto produk Sayur Nangka untuk katalog lokal Salero Basamo Jati.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect width="640" height="12" fill="#D50112" />
+  <rect x="24" y="28" width="244" height="36" rx="18" fill="#FFF0F1" />
+  <text x="42" y="52" fill="#D50112" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Lauk Padang</text>
+  <rect x="540" y="28" width="76" height="36" rx="18" fill="#FDCE02" />
+  <text x="578" y="52" fill="#211D1B" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DEMO</text>
+  <circle cx="320" cy="232" r="134" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="8" />
+  <circle cx="320" cy="232" r="108" fill="none" stroke="#FAF9F6" stroke-width="4" />
+  <circle cx="320" cy="232" r="78" fill="#FDCE02" opacity="0.18" />
+<circle cx="320" cy="232" r="64" fill="#FDCE02" opacity="0.88" />
+<circle cx="296" cy="212" r="10" fill="#FDCE02" />
+<circle cx="344" cy="224" r="12" fill="#FDCE02" />
+<circle cx="314" cy="262" r="9" fill="#FDCE02" />
+<circle cx="356" cy="268" r="6" fill="#FDCE02" />
+  <rect x="150" y="388" width="340" height="2" fill="#E9E4DD" />
+  <text x="320" y="432" fill="#211D1B" font-family="system-ui, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Sayur Nangka</text>
+</svg>

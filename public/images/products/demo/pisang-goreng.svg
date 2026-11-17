@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Pisang Goreng</title>
+  <desc id="desc">Dummy foto produk Pisang Goreng untuk katalog lokal Salero Basamo Jati.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect width="640" height="12" fill="#D50112" />
+  <rect x="24" y="28" width="244" height="36" rx="18" fill="#FFF0F1" />
+  <text x="42" y="52" fill="#D50112" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Camilan &amp; Dessert</text>
+  <rect x="540" y="28" width="76" height="36" rx="18" fill="#FDCE02" />
+  <text x="578" y="52" fill="#211D1B" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DEMO</text>
+  <circle cx="320" cy="232" r="134" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="8" />
+  <circle cx="320" cy="232" r="108" fill="none" stroke="#FAF9F6" stroke-width="4" />
+  <ellipse cx="292" cy="212" rx="46" ry="28" fill="#FDCE02" transform="rotate(-18 292 212)" />
+<ellipse cx="352" cy="228" rx="46" ry="28" fill="#FDCE02" opacity="0.72" transform="rotate(16 352 228)" />
+<ellipse cx="314" cy="270" rx="44" ry="24" fill="#FDCE02" opacity="0.9" transform="rotate(-8 314 270)" />
+<circle cx="282" cy="204" r="5" fill="#D50112" />
+<circle cx="356" cy="222" r="5" fill="#D50112" />
+<circle cx="318" cy="264" r="5" fill="#D50112" />
+  <rect x="150" y="388" width="340" height="2" fill="#E9E4DD" />
+  <text x="320" y="432" fill="#211D1B" font-family="system-ui, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Pisang Goreng</text>
+</svg>

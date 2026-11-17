@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mie Goreng Padang</title>
+  <desc id="desc">Dummy foto produk Mie Goreng Padang untuk katalog lokal Salero Basamo Jati.</desc>
+  <rect width="640" height="480" fill="#FAF9F6" />
+  <rect width="640" height="12" fill="#D50112" />
+  <rect x="24" y="28" width="244" height="36" rx="18" fill="#FFF0F1" />
+  <text x="42" y="52" fill="#D50112" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Nasi &amp; Makanan Utama</text>
+  <rect x="540" y="28" width="76" height="36" rx="18" fill="#FDCE02" />
+  <text x="578" y="52" fill="#211D1B" font-family="system-ui, sans-serif" font-size="14" font-weight="700" text-anchor="middle">DEMO</text>
+  <circle cx="320" cy="232" r="134" fill="#FFFFFF" stroke="#E9E4DD" stroke-width="8" />
+  <circle cx="320" cy="232" r="108" fill="none" stroke="#FAF9F6" stroke-width="4" />
+  <path d="M248 200c34-30 68 30 102 0s52 24 44 44M248 230c34-30 68 30 102 0s52 24 44 44M260 264c30-24 62 20 92-2" fill="none" stroke="#FDCE02" stroke-width="14" stroke-linecap="round" />
+<circle cx="286" cy="214" r="8" fill="#D50112" />
+<circle cx="352" cy="254" r="7" fill="#D50112" />
+  <rect x="150" y="388" width="340" height="2" fill="#E9E4DD" />
+  <text x="320" y="432" fill="#211D1B" font-family="system-ui, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Mie Goreng Padang</text>
+</svg>
